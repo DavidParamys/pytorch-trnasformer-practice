@@ -2,7 +2,8 @@
 
 [Language Modeling with nn.Transformer and TorchText — PyTorch Tutorials 2.0.0+cu117 documentation](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
 
-
+#
+ 
 ## Environment
 
 - CPU
@@ -17,7 +18,7 @@
 
   需要先確認說他是 torch 跟 torchtext 的版本是對應的
 
-  ![version 對照表](.\res\markdown\torchtext_version.png)
+  ![version 對照表](/res/markdown/torchtext_version.png)
 
   例如我執行的 torch 版本為 'torch-1.13.1+cu117'，
 
@@ -33,6 +34,8 @@
   
   - https://pypi.org/project/torchtext/
 
+# 
+
 ## Dataset
 
 - 使用 WikiText2
@@ -42,6 +45,7 @@
   - https://paperswithcode.com/dataset/wikitext-2
   - https://blog.salesforceairesearch.com/the-wikitext-long-term-dependency-language-modeling-dataset/
 
+#
 
 ## Execute
 
@@ -50,3 +54,17 @@
 ```
 python main.py
 ```
+
+#
+
+## Git Principle Git使用原則
+
+- 修改**.gitignore**要跟大家說一下
+  註解一定要寫，註解格式
+
+  ```
+  + : add 新增功能
+  ~ : fix 修復bug
+  - : rm 移除檔案或者功能
+  # : 修改既有功能
+  ```
